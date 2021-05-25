@@ -5,7 +5,7 @@
   <p align="center">
     Clinify Exclusive Forest App!
     <br />
-    <a href="https://github.com/tiluckdave/ClinifyForest"><strong>Explore the code »</strong></a>
+    <a href="https://github.com/Clinify-Open-Sauce/ClinifyForest"><strong>Explore the code »</strong></a>
     <br />
     <br />
     &nbsp;&nbsp;<a href="https://clinifyforest.herokuapp.com/">Visit the site</a>&nbsp;&nbsp;
