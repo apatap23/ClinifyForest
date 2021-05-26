@@ -62,7 +62,6 @@ Setting up the project locally maybe headache for the first time but believe me 
 
 ### Prerequisites
 
-Prequisites
 * Python
   ```sh
   Python version 3.9.2 is used in this project
@@ -113,7 +112,7 @@ Prequisites
    * Login if you are not
    * click on New application
    * Name your application whatever you want
-   * headover to `OAuth2` section and click on `Add Ridirect`
+   * headover to `OAuth2` section and click on `Add Redirect`
    * Add this url `http://127.0.0.1:8000/login/redirect`
    * Click on `Save Changes`
    * Now under `OAuth2 URL Generator`
@@ -121,7 +120,7 @@ Prequisites
    * Under scopes select `identify` and `guilds`
    * A new url will be generated at the bottom Copy it!
    
-6. Enviornment Variables
+6. Environment Variables
    * In the root folder where `manage.py` file lies create a new `.env` file
    * Paste the below text to `.env` file
    ```
@@ -133,7 +132,7 @@ Prequisites
    DBHOST=localhost
    DBPORT=5432
    OAUTHURL=<your-oauth-url>
-   REDIRECT_URI=http://127.0.0.1:8000/login/redirect
+   REDIRECT_URL=http://127.0.0.1:8000/login/redirect
    CLINIFY_SERVER_ID=740589508365385839
    MY_DISCORD_CLIENT_ID=<your-discord-client-id>
    MY_DISCORD_CLIENT_SECRET=<your-discord-client-secret>
