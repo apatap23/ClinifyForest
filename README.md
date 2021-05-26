@@ -113,7 +113,7 @@ Prequisites
    * Login if you are not
    * click on New application
    * Name your application whatever you want
-   * headover to `OAuth2` section and click on `Add Ridirect`
+   * headover to `OAuth2` section and click on `Add Redirect`
    * Add this url `http://127.0.0.1:8000/login/redirect`
    * Click on `Save Changes`
    * Now under `OAuth2 URL Generator`
