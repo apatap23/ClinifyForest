@@ -121,7 +121,7 @@ Prequisites
    * Under scopes select `identify` and `guilds`
    * A new url will be generated at the bottom Copy it!
    
-6. Enviornment Variables
+6. Environment Variables
    * In the root folder where `manage.py` file lies create a new `.env` file
    * Paste the below text to `.env` file
    ```
