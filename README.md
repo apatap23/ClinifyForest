@@ -10,9 +10,9 @@
     <br />
     &nbsp;&nbsp;<a href="https://clinifyforest.herokuapp.com/">Visit the site</a>&nbsp;&nbsp;
     ·
-    &nbsp;&nbsp;<a href="https://github.com/tiluckdave/ClinifyForest/issues">Report Bug</a>&nbsp;&nbsp;
+    &nbsp;&nbsp;<a href="https://github.com/Clinify-Open-Sauce/ClinifyForest/issues">Report Bug</a>&nbsp;&nbsp;
     ·
-    &nbsp;&nbsp;<a href="https://github.com/tiluckdave/ClinifyForest/issues">Request Feature</a>&nbsp;&nbsp;
+    &nbsp;&nbsp;<a href="https://github.com/Clinify-Open-Sauce/ClinifyForest/issues">Request Feature</a>&nbsp;&nbsp;
   </p>
 </p>
 
@@ -81,7 +81,7 @@ Prequisites
   pip install virtualenv
   ```
 * You should compulsorily become a member of Clinify Squad Discord Server link ->
-  [Clinify Squad](https://clinify.in)
+  [Clinify Squad](https://clinify.in/discord)
  
 ### Installation
 
@@ -204,7 +204,7 @@ Your Name - [@tiluckdave](https://twitter.com/tiluckdave) - davetilak003@gmail.c
 
 Discord Tag - @tiluckdave#4120
 
-Project Link: [https://github.com/tiluckdave/ClinifyForest](https://github.com/tiluckdave/ClinifyForest)
+Project Link: [https://github.com/Clinify-Open-Sauce/ClinifyForest](https://github.com/Clinify-Open-Sauce/ClinifyForest)
 
 
 <!-- ACKNOWLEDGEMENTS -->
