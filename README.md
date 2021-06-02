@@ -108,20 +108,20 @@ Setting up the project locally maybe headache for the first time but believe me 
    CREATE DATABASE clinifyforest;
    ```
 5. Creating a Discord Application
-   * visit [Discord Developers Portal](https://discord.com/developers/applications)
+   * Visit the [Discord Developers Portal](https://discord.com/developers/applications)
    * Login if you are not
-   * click on New application
+   * Click on "New Application"
    * Name your application whatever you want
-   * headover to `OAuth2` section and click on `Add Redirect`
+   * Head over to `OAuth2` section and click on `Add Redirect`
    * Add this url `http://127.0.0.1:8000/login/redirect`
    * Click on `Save Changes`
    * Now under `OAuth2 URL Generator`
-   * Select redirect Url as `http://127.0.0.1:8000/login/redirect`
-   * Under scopes select `identify` and `guilds`
-   * A new url will be generated at the bottom Copy it!
+   * Select redirect url as `http://127.0.0.1:8000/login/redirect`
+   * Under scopes, select `identify` and `guilds`
+   * A new url will be generated at the bottom. Copy it!
    
 6. Environment Variables
-   * In the root folder where `manage.py` file lies create a new `.env` file
+   * In the root folder where `manage.py` file lies, create a new `.env` file
    * Paste the below text to `.env` file
    ```
    SECRET_KEY=secretkey
@@ -142,10 +142,10 @@ Setting up the project locally maybe headache for the first time but believe me 
    * replace `<your-discord-client-id>` with your discord developers client id
    * replace `<your-discord-client-secret>` with your discord developers client secret
 7. Create local settings
-   * Open the folder in any of the code editor
-   * Head over to `ClinifyForest` Folder
+   * Open the folder in any code editor
+   * Head over to the `ClinifyForest` Folder
    * Create a new file called `local_settings.py`
-   * paste this code in the file
+   * Paste this code in the file
    ```
    import os
    from .settings import BASE_DIR
@@ -173,8 +173,7 @@ Setting up the project locally maybe headache for the first time but believe me 
     ```sh
     python manage.py runserver
     ```
-    And You are good to go
-    Now visit [localhost:8000](http://127.0.0.1:8000)
+    Now you are good to go visit [localhost:8000](http://127.0.0.1:8000)
     
 11. Create Super User
     ```sh
