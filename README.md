@@ -63,11 +63,11 @@ Setting up the project locally maybe headache for the first time but believe me 
 ### Prerequisites
 
 * Python
-  ```sh
+  ```shell
   Python version 3.9.2 is used in this project
   ```
 * Django installed globally
-  ```sh
+  ```shell
   pip install django -g
   ```
 * Postgres
@@ -76,7 +76,7 @@ Setting up the project locally maybe headache for the first time but believe me 
   ```
   [PostGres](https://www.postgresql.org/download/windows/)
 * Virtualenv
-  ```sh
+  ```shell
   pip install virtualenv
   ```
 * You should compulsorily become a member of Clinify Squad Discord Server link ->
@@ -85,18 +85,18 @@ Setting up the project locally maybe headache for the first time but believe me 
 ### Installation
 
 1. Create a Virtual enviornment
-   ```sh
+   ```shell
    python -m venv csenv
    ```
-   ```sh
+   ```shell
    source ./csenv/Scripts/activate
    ```
 3. Clone the repo
-   ```sh
+   ```shell
    git clone https://github.com/tiluckdave/ClinifyForest.git
    ```
 3. Install requirements
-   ```sh
+   ```shell
    pip install -r requirements.txt
    ```
 4. Setup the database
@@ -104,7 +104,7 @@ Setting up the project locally maybe headache for the first time but believe me 
    2. create and connect to localhost:5432
    3. setup new password for postgres
    4. run below command
-   ```
+   ```sql
    CREATE DATABASE clinifyforest;
    ```
 5. Creating a Discord Application
@@ -146,7 +146,7 @@ Setting up the project locally maybe headache for the first time but believe me 
    * Head over to the `ClinifyForest` Folder
    * Create a new file called `local_settings.py`
    * Paste this code in the file
-   ```
+   ```python
    import os
    from .settings import BASE_DIR
    
@@ -158,25 +158,25 @@ Setting up the project locally maybe headache for the first time but believe me 
    ```
    * save `local_settings.py`
 9. Make migrations
-   ```sh
+   ```shell
    python manage.py makemigrations
    ```
-   ```sh
+   ```shell
    python manage.py sqlmigrate login 0001
    python manage.py sqlmigrate main 0001
    python manage.py sqlmigrate search 0001
    ```
-   ```sh
+   ```shell
    python manage.py migrate
    ```
 10. Run the server
-    ```sh
+    ```shell
     python manage.py runserver
     ```
     Now you are good to go visit [localhost:8000](http://127.0.0.1:8000)
     
 11. Create Super User
-    ```sh
+    ```shell
     python manage.py createsuperuser
     ```
    
